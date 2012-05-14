@@ -1,0 +1,78 @@
+*** Sass ***
+
+(Syntactically Awesome Stylesheets)
+
+http://sass-lang.com/
+
+Is a stylesheet language.
+
+scss y sass (older)
+
+Features:
+
+1. Variables
+2. Nesting
+3. Mixins
+4. Selector inheritance
+
+Using sass out of ruby projects
+
+INSTALLATION
+
+$> gem install sass
+$> sass --watch views/stylesheets/application.sass:public/stylesheets/application.css
+
+__FILE__ views/stylesheets/application.sass
+
+$blue:#3bbfce
+
+@mixin left($dist)
+  float: left
+  margin-left: $dist
+  padding-left: $dist/2
+  
+table
+  @include left(10)
+  th
+    color: $blue
+
+.board
+  width: 500px
+  height: 500px
+
+.user-board
+  @extend .board  
+  border-color: $blue
+
+.opponent-board
+  @extend .board
+  border-color: red
+
+__EOFILE__
+
+link rel="stylesheet" href="stylesheets/applications.css"
+
+*** Compass ***
+
+http://compass-style.org/
+
+gem install compass
+
+__FILE__ config.rb
+
+http_path = "/"
+
+css_dir = "stylesheets"
+javascripts_dir = "javascripts"
+images_dir = "images"
+
+sass_dir = "views/stylesheets"
+
+preferred_syntax = :sass
+
+__EOF__
+
+$> compass watch . (or path/to/project not to file, do not run with sass --watch)
+
+Features:
+
