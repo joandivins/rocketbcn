@@ -1,0 +1,26 @@
+/* line 8, views/stylesheets/application.sass */
+table {
+  float: left;
+  margin-left: 10;
+  padding-left: 5;
+}
+/* line 10, views/stylesheets/application.sass */
+table th {
+  color: #3bbfce;
+}
+
+/* line 13, views/stylesheets/application.sass */
+.board, .user-board, .opponent-board {
+  width: 500px;
+  height: 500px;
+}
+
+/* line 17, views/stylesheets/application.sass */
+.user-board {
+  border-color: #3bbfce;
+}
+
+/* line 21, views/stylesheets/application.sass */
+.opponent-board {
+  border-color: red;
+}

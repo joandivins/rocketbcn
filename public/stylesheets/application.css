@@ -1,0 +1,16 @@
+table {
+  float: left;
+  margin-left: 10;
+  padding-left: 5; }
+  table th {
+    color: #3bbfce; }
+
+.board, .user-board, .opponent-board {
+  width: 500px;
+  height: 500px; }
+
+.user-board {
+  border-color: #3bbfce; }
+
+.opponent-board {
+  border-color: red; }

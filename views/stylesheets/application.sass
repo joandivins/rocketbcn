@@ -1,0 +1,24 @@
+$blue:#3bbfce
+
+@mixin left($dist)
+  float: left
+  margin-left: $dist
+  padding-left: $dist/2
+  
+table
+  @include left(10)
+  th
+    color: $blue
+
+.board
+  width: 500px
+  height: 500px
+
+.user-board
+  @extend .board  
+  border-color: $blue
+
+.opponent-board
+  @extend .board
+  border-color: red
+  
