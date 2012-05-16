@@ -76,3 +76,14 @@ $> compass watch . (or path/to/project not to file, do not run with sass --watch
 
 Features:
 
+  - CSS3:
+    The CSS3 module provides cross-browser mixins for CSS properties introduced in CSS3, for example border-radius and text-shadow.
+    
+  - Global reset 
+
+  - Sprite:
+    @import "my-icons/*.png";
+    @include all-my-icons-sprites;
+    
+    @include my-icons-sprite(bluetile);
+
