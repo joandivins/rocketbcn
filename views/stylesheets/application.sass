@@ -1,4 +1,4 @@
-$content-width: 480px
+$content-width: 290px
 $color-red: #EA664B
 
 $blue:#3bbfce
@@ -17,7 +17,7 @@ body
   bottom: 0
   left: 0
   right: 0
-  width: 500px
+  width: 480px
   height: 600px
   margin: auto
 
@@ -26,7 +26,7 @@ h1
   display: block
   width: $content-width
   height: $content-width
-  background-image: url('/images/rocket_logo_white_4xx.png')
+  background-image: url('/images/rocket_logo_white_2xx.png')
   background-repeat: no-repeat
   span
     display: inline-block
@@ -34,23 +34,39 @@ h1
     overflow: hidden
 
 form
+  width: 474px
   margin: auto
     top: 25px
   display: block
-  width: $content-width
 
   input
+    height: 60px
     width: 100%
     display: block
     font-size: 30px
+    line-height: 60px
     text-transform: uppercase
+    border: 0
+    padding: 0
     color: $color-red
+    border-radius: 3px
   button
+    margin-top: 15px
+    height: 60px
     width: 100%
     display: block
     color: $color-red
     font-size: 30px
+    line-height: 60px
     text-transform: uppercase
+    border-radius: 3px
+    background-color: white
+    border: 0
+    &:hover
+      cursor: pointer
+      background-color: $color-red
+      color: white
+      border: 1px solid white
   
 table
   @include left(10)

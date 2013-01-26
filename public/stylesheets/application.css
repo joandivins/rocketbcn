@@ -8,16 +8,16 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 500px;
+  width: 480px;
   height: 600px;
   margin: auto; }
 
 h1 {
   margin: auto;
   display: block;
-  width: 480px;
-  height: 480px;
-  background-image: url("/images/rocket_logo_white_4xx.png");
+  width: 290px;
+  height: 290px;
+  background-image: url("/images/rocket_logo_white_2xx.png");
   background-repeat: no-repeat; }
   h1 span {
     display: inline-block;
@@ -25,22 +25,38 @@ h1 {
     overflow: hidden; }
 
 form {
+  width: 474px;
   margin: auto;
     margin-top: 25px;
-  display: block;
-  width: 480px; }
+  display: block; }
   form input {
+    height: 60px;
     width: 100%;
     display: block;
     font-size: 30px;
+    line-height: 60px;
     text-transform: uppercase;
-    color: #ea664b; }
+    border: 0;
+    padding: 0;
+    color: #ea664b;
+    border-radius: 3px; }
   form button {
+    margin-top: 15px;
+    height: 60px;
     width: 100%;
     display: block;
     color: #ea664b;
     font-size: 30px;
-    text-transform: uppercase; }
+    line-height: 60px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: white;
+    border: 0; }
+    form button:hover {
+      cursor: pointer;
+      background-color: #ea664b;
+      color: white;
+      border: 1px solid white; }
 
 table {
   float: left;
