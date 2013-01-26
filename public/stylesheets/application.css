@@ -2,6 +2,46 @@ body {
   margin: 0;
   background-color: #ea664b; }
 
+#wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 600px;
+  margin: auto; }
+
+h1 {
+  margin: auto;
+  display: block;
+  width: 480px;
+  height: 480px;
+  background-image: url("/images/rocket_logo_white_4xx.png");
+  background-repeat: no-repeat; }
+  h1 span {
+    display: inline-block;
+    text-indent: -999em;
+    overflow: hidden; }
+
+form {
+  margin: auto;
+    margin-top: 25px;
+  display: block;
+  width: 480px; }
+  form input {
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ea664b; }
+  form button {
+    width: 100%;
+    display: block;
+    color: #ea664b;
+    font-size: 30px;
+    text-transform: uppercase; }
+
 table {
   float: left;
   margin-left: 10;

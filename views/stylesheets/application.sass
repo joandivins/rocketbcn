@@ -1,12 +1,56 @@
+$content-width: 480px
+$color-red: #EA664B
+
 $blue:#3bbfce
 body
   margin: 0
-  background-color: #EA664B
+  background-color: $color-red
 
 @mixin left($dist)
   float: left
   margin-left: $dist
   padding-left: $dist/2
+
+#wrapper
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  width: 500px
+  height: 600px
+  margin: auto
+
+h1
+  margin: auto
+  display: block
+  width: $content-width
+  height: $content-width
+  background-image: url('/images/rocket_logo_white_4xx.png')
+  background-repeat: no-repeat
+  span
+    display: inline-block
+    text-indent: -999em
+    overflow: hidden
+
+form
+  margin: auto
+    top: 25px
+  display: block
+  width: $content-width
+
+  input
+    width: 100%
+    display: block
+    font-size: 30px
+    text-transform: uppercase
+    color: $color-red
+  button
+    width: 100%
+    display: block
+    color: $color-red
+    font-size: 30px
+    text-transform: uppercase
   
 table
   @include left(10)
