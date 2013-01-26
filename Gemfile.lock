@@ -32,6 +32,7 @@ PLATFORMS
 
 DEPENDENCIES
   compass
+  rack
   sinatra
   slim
   thin
