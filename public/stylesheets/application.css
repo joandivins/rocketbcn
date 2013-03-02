@@ -1,10 +1,11 @@
 /* line 5, ../../views/stylesheets/application.sass */
 body {
   margin: 0;
-  background-color: #444444;
+  background-color: #ea664b;
+  font-family: "Lato", serif;
 }
 
-/* line 14, ../../views/stylesheets/application.sass */
+/* line 15, ../../views/stylesheets/application.sass */
 #wrapper {
   position: absolute;
   top: 0;
@@ -16,7 +17,7 @@ body {
   margin: auto;
 }
 
-/* line 24, ../../views/stylesheets/application.sass */
+/* line 25, ../../views/stylesheets/application.sass */
 h1 {
   margin: auto;
   display: block;
@@ -25,83 +26,90 @@ h1 {
   background-image: url("/images/rocket_logo_white_2xx.png");
   background-repeat: no-repeat;
 }
-/* line 31, ../../views/stylesheets/application.sass */
+/* line 32, ../../views/stylesheets/application.sass */
 h1 span {
   display: inline-block;
   text-indent: -999em;
   overflow: hidden;
 }
 
-/* line 36, ../../views/stylesheets/application.sass */
+/* line 37, ../../views/stylesheets/application.sass */
 form {
   width: 474px;
   margin: auto;
   margin-top: 25px;
   display: block;
 }
-/* line 42, ../../views/stylesheets/application.sass */
+/* line 43, ../../views/stylesheets/application.sass */
 form input {
-  height: 60px;
-  width: 100%;
+  height: 45px;
+  width: 96%;
   display: block;
-  font-size: 30px;
-  line-height: 60px;
+  font-family: "Lato", serif;
+  font-size: 25px;
+  line-height: 35px;
   text-transform: uppercase;
   border: 0;
   padding: 0;
-  color: #444444;
+  color: #ea664b;
   border-radius: 3px;
 }
-/* line 53, ../../views/stylesheets/application.sass */
+/* line 55, ../../views/stylesheets/application.sass */
+form input.email {
+  padding-left: 20px;
+  color: #ea664b;
+  text-transform: none;
+}
+/* line 60, ../../views/stylesheets/application.sass */
 form button {
   margin-top: 15px;
-  height: 60px;
+  height: 45px;
   width: 100%;
   display: block;
-  color: #444444;
-  font-size: 30px;
-  line-height: 60px;
+  color: #ea664b;
+  font-size: 25px;
+  line-height: 35px;
   text-transform: uppercase;
   border-radius: 3px;
   background-color: white;
   border: 0;
 }
-/* line 65, ../../views/stylesheets/application.sass */
+/* line 72, ../../views/stylesheets/application.sass */
 form button:hover {
   cursor: pointer;
-  background-color: #444444;
+  background-color: #ea664b;
   color: white;
   border: 1px solid white;
 }
 
-/* line 71, ../../views/stylesheets/application.sass */
+/* line 78, ../../views/stylesheets/application.sass */
 table {
   float: left;
   margin-left: 10;
   padding-left: 5;
 }
-/* line 73, ../../views/stylesheets/application.sass */
+/* line 80, ../../views/stylesheets/application.sass */
 table th {
   color: #bbfce1;
 }
 
-/* line 76, ../../views/stylesheets/application.sass */
+/* line 83, ../../views/stylesheets/application.sass */
 .board, .user-board, .opponent-board {
   width: 500px;
   height: 500px;
 }
 
-/* line 80, ../../views/stylesheets/application.sass */
+/* line 87, ../../views/stylesheets/application.sass */
 .user-board {
   border-color: #bbfce1;
 }
 
-/* line 84, ../../views/stylesheets/application.sass */
+/* line 91, ../../views/stylesheets/application.sass */
 .opponent-board {
   border-color: red;
 }
 
-/* line 88, ../../views/stylesheets/application.sass */
+/* line 95, ../../views/stylesheets/application.sass */
 #last_posts {
   background: red;
 }
