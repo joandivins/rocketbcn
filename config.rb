@@ -1,6 +1,6 @@
 http_path = "/"
 
-css_dir = "stylesheets"
+css_dir = "public/stylesheets"
 javascripts_dir = "javascripts"
 images_dir = "images"
 

@@ -1,7 +1,10 @@
+/* line 5, ../../views/stylesheets/application.sass */
 body {
   margin: 0;
-  background-color: #ea664b; }
+  background-color: green;
+}
 
+/* line 14, ../../views/stylesheets/application.sass */
 #wrapper {
   position: absolute;
   top: 0;
@@ -10,70 +13,95 @@ body {
   right: 0;
   width: 480px;
   height: 450px;
-  margin: auto; }
+  margin: auto;
+}
 
+/* line 24, ../../views/stylesheets/application.sass */
 h1 {
   margin: auto;
   display: block;
   width: 290px;
   height: 290px;
   background-image: url("/images/rocket_logo_white_2xx.png");
-  background-repeat: no-repeat; }
-  h1 span {
-    display: inline-block;
-    text-indent: -999em;
-    overflow: hidden; }
+  background-repeat: no-repeat;
+}
+/* line 31, ../../views/stylesheets/application.sass */
+h1 span {
+  display: inline-block;
+  text-indent: -999em;
+  overflow: hidden;
+}
 
+/* line 36, ../../views/stylesheets/application.sass */
 form {
   width: 474px;
   margin: auto;
-    margin-top: 25px;
-  display: block; }
-  form input {
-    height: 60px;
-    width: 100%;
-    display: block;
-    font-size: 30px;
-    line-height: 60px;
-    text-transform: uppercase;
-    border: 0;
-    padding: 0;
-    color: #ea664b;
-    border-radius: 3px; }
-  form button {
-    margin-top: 15px;
-    height: 60px;
-    width: 100%;
-    display: block;
-    color: #ea664b;
-    font-size: 30px;
-    line-height: 60px;
-    text-transform: uppercase;
-    border-radius: 3px;
-    background-color: white;
-    border: 0; }
-    form button:hover {
-      cursor: pointer;
-      background-color: #ea664b;
-      color: white;
-      border: 1px solid white; }
+  margin-top: 25px;
+  display: block;
+}
+/* line 42, ../../views/stylesheets/application.sass */
+form input {
+  height: 60px;
+  width: 100%;
+  display: block;
+  font-size: 30px;
+  line-height: 60px;
+  text-transform: uppercase;
+  border: 0;
+  padding: 0;
+  color: green;
+  border-radius: 3px;
+}
+/* line 53, ../../views/stylesheets/application.sass */
+form button {
+  margin-top: 15px;
+  height: 60px;
+  width: 100%;
+  display: block;
+  color: green;
+  font-size: 30px;
+  line-height: 60px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: white;
+  border: 0;
+}
+/* line 65, ../../views/stylesheets/application.sass */
+form button:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border: 1px solid white;
+}
 
+/* line 71, ../../views/stylesheets/application.sass */
 table {
   float: left;
   margin-left: 10;
-  padding-left: 5; }
-  table th {
-    color: #3bbfce; }
+  padding-left: 5;
+}
+/* line 73, ../../views/stylesheets/application.sass */
+table th {
+  color: #bbfce1;
+}
 
+/* line 76, ../../views/stylesheets/application.sass */
 .board, .user-board, .opponent-board {
   width: 500px;
-  height: 500px; }
+  height: 500px;
+}
 
+/* line 80, ../../views/stylesheets/application.sass */
 .user-board {
-  border-color: #3bbfce; }
+  border-color: #bbfce1;
+}
 
+/* line 84, ../../views/stylesheets/application.sass */
 .opponent-board {
-  border-color: red; }
+  border-color: red;
+}
 
+/* line 88, ../../views/stylesheets/application.sass */
 #last_posts {
-  background: red; }
+  background: red;
+}
