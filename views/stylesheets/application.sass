@@ -1,25 +1,8 @@
+@import compass/css3
+
 $content-width: 290px
 $color-red: #ea664b
 $blue: #bbfce1
-
-@media  screen and (max-width: 600px) 
-  h1
-    width: 290px
-    max-width: 90%
-  form
-    height: 70%   
-    max-width: 70%
-    font-size: 20px
-    line-height: 20px
-  input
-    font-size: 20px
-    line-height: 20px
-    &.email
-      padding-left: 13px
-      font-size: 20px
-  button
-    font-size: 20px
-    line-height: 20px
   
 body
   margin: 0
@@ -54,7 +37,6 @@ h1
     overflow: hidden
   
 
-
 form
   width: 474px
   margin: auto
@@ -62,23 +44,22 @@ form
   display: block
 
   input
-    height: 45px
-    width: 96%
     display: block
+    +box-sizing(border-box)
+    height: 45px
+    width: 100%
+    border: 0
+    border-radius: 3px
+    padding: 0
+      left: 20px
     font-family: "Lato", Arial, serif 
     font-size: 25px
     font-weight: 300
     line-height: 35px
     text-transform: uppercase
-    border: 0
-    padding: 0
     color: $color-red
-    border-radius: 3px
     &:focus
-      outline: none
-    &.email
-      padding-left: 20px
-      color: $color-red
+      outline: none   
       text-transform: none
 
   button
@@ -121,5 +102,21 @@ table
 #last_posts
   background: red
 
+@media  screen and (max-width: 600px) 
+  h1
+    width: 290px
+    max-width: 90%
+    font-size: 20px
 
-    
+  form
+    height: 70%   
+    max-width: 70%
+    button
+      font-size: 20px
+      line-height: 20px
+    input
+      font-size: 20px
+      line-height: 20px
+      &.email
+        padding-left: 13px
+        font-size: 20px
