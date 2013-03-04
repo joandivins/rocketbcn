@@ -13,7 +13,10 @@ body
   float: left
   margin-left: $dist
   padding-left: $dist/2
-    
+
+@mixin marta($pepito)
+    float:
+
 #wrapper
   position: absolute
   top: 0
@@ -29,20 +32,13 @@ h1
   display: block
   width: $content-width
   height: $content-width
-  background-image: url('/images/rocket_logo_white_2xx.png')
+ / background-image: url('/images/rocket_logo_white_2xx.png')
   background-repeat: no-repeat
   span
     display: inline-block
     text-indent: -999em
     overflow: hidden
   
-
-form
-  width: 474px
-  margin: auto
-    top: 25px
-  display: block
-
   input
     display: block
     +box-sizing(border-box)
@@ -84,7 +80,6 @@ table
   @include left(10)
   th
     color: $blue
-
 
 
 .board

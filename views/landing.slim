@@ -3,7 +3,10 @@ html
   head
     title RocketBCN
     script type='text/javascript' src='javascripts/application.js' 
+    script type='text/javascript' src='javascripts/jquery-1.4.4.min.js'
+    script type='text/javascript' src='javascripts/jquery.reveal.js'
     link rel="stylesheet" href="stylesheets/application.css" 
+    link rel="stylesheet" href="stylesheets/reveal.css" 
     link href="/stylesheets/_media-queries.scss" rel="stylesheet" type="text/css"
     link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'
     meta name="google-site-verification" content="XtCWug2ErCkOuJbvfwrwoGRywue8Y9c47ov1jhwi2MI"
@@ -15,6 +18,15 @@ html
       form action="http://therocketbcn.us6.list-manage2.com/subscribe/post?u=bd966aa7bcef20d38677fb968&amp;id=077231ef62" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate=true
         input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="//YOUR EMAIL HERE" required=true
         button type="submit" Subscribe to stay tuned!
+    #video  
+      a href="#" data-reveal-id="myModal"   
+        span +
+
+  #myModal class="reveal-modal"
+     span Modal Title
+     p Any content could go in here
+     a class="close-reveal-modal" &#215
+
 /**/
 /*      #social*/
 /*        ul*/
@@ -22,3 +34,4 @@ html
 /*            a href="#" Facebook*/
 /*          li*/
 /*            a href="#" Twitter*/
+
