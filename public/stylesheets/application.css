@@ -86,66 +86,88 @@ form button:hover {
   border: 1px solid white;
 }
 
-/* line 82, ../../views/stylesheets/application.sass */
+/* line 81, ../../views/stylesheets/application.sass */
+#video {
+  position: relative;
+  margin: 20px;
+  text-align: center;
+}
+
+/* line 86, ../../views/stylesheets/application.sass */
+a {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  text-color: white;
+  text-decoration: none;
+}
+
+/* line 93, ../../views/stylesheets/application.sass */
+a:hover {
+  color: black;
+}
+
+/* line 97, ../../views/stylesheets/application.sass */
 table {
   float: left;
   margin-left: 10;
   padding-left: 5;
 }
-/* line 84, ../../views/stylesheets/application.sass */
+/* line 99, ../../views/stylesheets/application.sass */
 table th {
   color: #bbfce1;
 }
 
-/* line 89, ../../views/stylesheets/application.sass */
+/* line 104, ../../views/stylesheets/application.sass */
 .board, .user-board, .opponent-board {
   width: 500px;
   height: 500px;
 }
 
-/* line 93, ../../views/stylesheets/application.sass */
+/* line 108, ../../views/stylesheets/application.sass */
 .user-board {
   border-color: #bbfce1;
 }
 
-/* line 97, ../../views/stylesheets/application.sass */
+/* line 112, ../../views/stylesheets/application.sass */
 .opponent-board {
   border-color: red;
 }
 
-/* line 101, ../../views/stylesheets/application.sass */
+/* line 116, ../../views/stylesheets/application.sass */
 #last_posts {
   background: red;
 }
 
-/* line 104, ../../views/stylesheets/application.sass */
+/* line 119, ../../views/stylesheets/application.sass */
 .video {
   background: red;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 108, ../../views/stylesheets/application.sass */
+  /* line 123, ../../views/stylesheets/application.sass */
   h1 {
     max-width: 90%;
     font-size: 20px;
   }
 
-  /* line 113, ../../views/stylesheets/application.sass */
+  /* line 128, ../../views/stylesheets/application.sass */
   form {
     height: 70%;
     max-width: 70%;
   }
-  /* line 116, ../../views/stylesheets/application.sass */
+  /* line 131, ../../views/stylesheets/application.sass */
   form button {
     font-size: 20px;
     line-height: 20px;
   }
-  /* line 119, ../../views/stylesheets/application.sass */
+  /* line 134, ../../views/stylesheets/application.sass */
   form input {
     font-size: 20px;
     line-height: 20px;
   }
-  /* line 122, ../../views/stylesheets/application.sass */
+  /* line 137, ../../views/stylesheets/application.sass */
   form input.email {
     padding-left: 13px;
     font-size: 20px;
