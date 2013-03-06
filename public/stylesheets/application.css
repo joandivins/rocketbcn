@@ -21,8 +21,8 @@ body {
 h1 {
   margin: auto;
   display: block;
-  width: 290px;
-  height: 290px;
+  width: 322px;
+  height: 322px;
   background-image: url("/images/rocket_logo_white_2xx.png");
   background-repeat: no-repeat;
 }
@@ -33,14 +33,14 @@ h1 span {
   overflow: hidden;
 }
 
-/* line 40, ../../views/stylesheets/application.sass */
+/* line 39, ../../views/stylesheets/application.sass */
 form {
   width: 474px;
   margin: auto;
   margin-top: 25px;
   display: block;
 }
-/* line 46, ../../views/stylesheets/application.sass */
+/* line 45, ../../views/stylesheets/application.sass */
 form input {
   display: block;
   -webkit-box-sizing: border-box;
@@ -59,12 +59,12 @@ form input {
   text-transform: uppercase;
   color: #ea664b;
 }
-/* line 61, ../../views/stylesheets/application.sass */
+/* line 60, ../../views/stylesheets/application.sass */
 form input:focus {
   outline: none;
   text-transform: none;
 }
-/* line 65, ../../views/stylesheets/application.sass */
+/* line 64, ../../views/stylesheets/application.sass */
 form button {
   margin-top: 15px;
   height: 45px;
@@ -78,7 +78,7 @@ form button {
   background-color: white;
   border: 0;
 }
-/* line 77, ../../views/stylesheets/application.sass */
+/* line 76, ../../views/stylesheets/application.sass */
 form button:hover {
   cursor: pointer;
   background-color: #ea664b;
@@ -86,62 +86,66 @@ form button:hover {
   border: 1px solid white;
 }
 
-/* line 83, ../../views/stylesheets/application.sass */
+/* line 82, ../../views/stylesheets/application.sass */
 table {
   float: left;
   margin-left: 10;
   padding-left: 5;
 }
-/* line 85, ../../views/stylesheets/application.sass */
+/* line 84, ../../views/stylesheets/application.sass */
 table th {
   color: #bbfce1;
 }
 
-/* line 90, ../../views/stylesheets/application.sass */
+/* line 89, ../../views/stylesheets/application.sass */
 .board, .user-board, .opponent-board {
   width: 500px;
   height: 500px;
 }
 
-/* line 94, ../../views/stylesheets/application.sass */
+/* line 93, ../../views/stylesheets/application.sass */
 .user-board {
   border-color: #bbfce1;
 }
 
-/* line 98, ../../views/stylesheets/application.sass */
+/* line 97, ../../views/stylesheets/application.sass */
 .opponent-board {
   border-color: red;
 }
 
-/* line 102, ../../views/stylesheets/application.sass */
+/* line 101, ../../views/stylesheets/application.sass */
 #last_posts {
   background: red;
 }
 
+/* line 104, ../../views/stylesheets/application.sass */
+.video {
+  background: red;
+}
+
 @media screen and (max-width: 600px) {
-  /* line 106, ../../views/stylesheets/application.sass */
+  /* line 108, ../../views/stylesheets/application.sass */
   h1 {
-    width: 290px;
     max-width: 90%;
     font-size: 20px;
   }
 
-  /* line 111, ../../views/stylesheets/application.sass */
+  /* line 113, ../../views/stylesheets/application.sass */
   form {
     height: 70%;
     max-width: 70%;
   }
-  /* line 114, ../../views/stylesheets/application.sass */
+  /* line 116, ../../views/stylesheets/application.sass */
   form button {
     font-size: 20px;
     line-height: 20px;
   }
-  /* line 117, ../../views/stylesheets/application.sass */
+  /* line 119, ../../views/stylesheets/application.sass */
   form input {
     font-size: 20px;
     line-height: 20px;
   }
-  /* line 120, ../../views/stylesheets/application.sass */
+  /* line 122, ../../views/stylesheets/application.sass */
   form input.email {
     padding-left: 13px;
     font-size: 20px;
